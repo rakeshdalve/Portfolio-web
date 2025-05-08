@@ -15,6 +15,7 @@ function App() {
 
   return (
     <>
+    <div className='mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-screen-2xl'>
      <Navbar/>
      <Home/>
      <About/>
@@ -22,6 +23,7 @@ function App() {
      <Experience/>
      <Contact/>
      <Footer/>
+    </div>
     </>
   )
 }

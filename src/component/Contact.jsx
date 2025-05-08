@@ -6,7 +6,7 @@ import { IoHome } from "react-icons/io5";
 export default function Contact() {
     return (
         <>
-            <div name="Contact" className=" m-2 p-2 bg-[url('/public/contact3.jpg')] bg-cover bg-center h-fit md:h-140 w-full">
+            <div name="Contact" className="p-4 bg-[url('/public/contact3.jpg')] bg-cover bg-center h-fit md:h-140 w-full">
                 <h1 className='text-3xl font-bold mb-5 flex justify-center'>
                     Contact us
                 </h1>
