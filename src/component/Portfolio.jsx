@@ -44,8 +44,8 @@ export default function Portfolio() {
                                 <p className='text-gray-800'>Lorem ipsum dolor sit amet</p>
                               </div> 
                               <div className='space-x-4 justify-around px-4 py-4'>
-                                <button className='bg-blue-400 hover:bg-blue-800 text-white font-bold rounded-xl px-4 py-2'>Video</button>
-                                <button className='bg-blue-400 hover:bg-blue-800 text-white font-bold rounded-xl px-4 py-2'>Source Code</button>
+                                <button className='bg-blue-400 hover:bg-blue-800 text-white font-bold rounded-xl m-2 px-4 py-2'>Video</button>
+                                <button className='bg-blue-400 hover:bg-blue-800 text-white font-bold rounded-xl m-2 px-4 py-2'>Source Code</button>
                               </div>
                             </div>
                         ))

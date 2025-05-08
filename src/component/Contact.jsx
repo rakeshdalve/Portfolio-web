@@ -36,7 +36,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className='bg-gray-300 w-100 px-8 py-6 rounded-2xl'>
+                    <div className='bg-gray-300 max-w-md px-8 py-6 rounded-2xl'>
                         <form action="">
                             <h1 className='font-bold text-2xl p-5'>Contact</h1>
                             <div className='flex flex-col mb-2'>

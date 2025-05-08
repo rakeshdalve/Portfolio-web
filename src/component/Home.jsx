@@ -12,19 +12,21 @@ import { ReactTyped } from "react-typed";
 export default function Home() {
     return (
         <>
-            <div name="Home" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 bg-[url('/public/coderimg.jpg')] bg-cover bg-center h-screen md:h-150 w-full">
+            <div name="Home" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 bg-[url('/public/coderimg.jpg')] bg-cover max-w-md bg-center h-screen md:h-150 w-full">
                     <div className='flex flex-col md:flex-row'>
                         <div className='text-white md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
                             <span className='text-xl'>Welcome To My Portfolio</span>
-                            <div className='flex space-x-1 text-2xl md:text-4xl'>
+                            <div className=' text-2xl md:text-4xl'>
                                 <h1>Hellow, I am a _</h1> 
                                 {/* <span className='text-green-600 font-bold'>Coder</span> */}
+                                <h1>
                                 <ReactTyped
                                     className='text-green-600 font-bold'
                                     strings={["Coder", "Programmer", "Developer"]}
                                     typeSpeed={40}
                                     loop={true}
                                 />
+                                </h1>
                             </div>
                             <br />
                             <p className='text-sm md:text-md text text-justify'>
@@ -71,11 +73,10 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className='md:w-1/2 md:ml-50 mt-8 md:mt-15 order-1'>
+                        <div className='md:w-1/2 mt-8 md:mt-15 order-1'>
                             {/* <img src="coderimg.jpg" className='bg-cover' alt="" /> */}
                         </div>
                     </div>
-                
             </div>  
             <hr />
         </>
